@@ -1,7 +1,6 @@
-.body{
-    background-color: black;
+.fondo-fijo{
+    background-color: rgb(41, 41, 41);
 }
-
 .etiqueta-de-saludo{
-    font-family: monospace; color:antiquewhite;
+text-align: center; font-family: monospace; color:rgb(241, 197, 0);
 }
