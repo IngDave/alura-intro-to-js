@@ -1,5 +1,5 @@
-console.log("Bienvenido al juego de adivinar numeros")
-let numero = alert("Ingresa un numero del 1 - 10")
+alert("Bienvenido al juego de adivinar numeros")
+let numero = prompt("Ingresa un numero del 1 - 10")
 
 let numeroSecreto = 18
 
