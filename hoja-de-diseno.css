@@ -1,14 +1,18 @@
-.fondo-fijo{
+.fondo-fijo {
     background-color: rgb(41, 41, 41);
 }
-.etiqueta-de-saludo{
-text-align: center; font-family: monospace; color:rgb(241, 197, 0);
+
+.etiqueta-de-saludo {
+    text-align: center;
+    font-family: monospace;
+    color: rgb(241, 197, 0);
 }
 
-.container{
-    .img{
+.container {
+    .img {
         width: 200px;
     }
-    font-family: monospace; 
+
+    font-family: monospace;
     color:rgb(241, 197, 0);
 }

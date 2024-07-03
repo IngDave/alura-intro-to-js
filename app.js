@@ -5,5 +5,5 @@ console.log(numeroAdivinar);
 if (numeroAdivinar == numeroSecreto) {
   alert("Has acertado, numero secreto: " + numeroSecreto) + alert("¡Game Over!");
 } else {
-  alert("Intenta nuevamente") + alert("El numero secreto es: " + numeroSecreto );
+  alert("Intenta nuevamente") + alert("El numero secreto era: " + numeroSecreto );
 }
