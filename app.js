@@ -8,7 +8,7 @@ while (numeroAdivinar != numeroSecreto) {
   console.log(numeroAdivinar);
 
   if (numeroAdivinar == numeroSecreto) {
-    alert(`Has acertado, numero secreto: ${numeroSecreto}. Has intentado ${intentos} ${palabraVeces}`);
+    alert(`Has acertado, numero secreto: ${numeroSecreto}. Has intentado ${intentos} ${intentos == 1 ? 'vez' : 'veces'}`);
   } else {
     if (numeroAdivinar < numeroSecreto) {
       alert(`El numero es mayor al ingresado, numero ingresado: ${numeroAdivinar}`);
@@ -16,7 +16,13 @@ while (numeroAdivinar != numeroSecreto) {
       alert(`El numero es menor al ingresado, numero ingresado:${numeroAdivinar}`);
     }
     //se incrementa el contador de veces para el acierto
-    intentos = intentos + 1;
-    palabraVeces = 'veces';
+    intentos++;
+    //palabraVeces = 'veces';
+
+    //limitar intentos
+    if(intentos > 3){
+      alert("¡Has llegado al numero max de intentos!");
+      break;
+    }
   }
 }
