@@ -5,5 +5,5 @@ let cuentaProgresiva = prompt("Ingrese 0 para comenzar a contar: ");
 
 while(cuentaProgresiva < 11){
     let contando = cuentaProgresiva++;
-    alert(`Cuenta progresiva: ${contando}`)
+    alert(`Cuenta progresiva: ${contando}`);
 }

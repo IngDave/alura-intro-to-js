@@ -2,10 +2,10 @@
 utilizando un template string para incluir el valor del saldo.*/
 
 function consultarSaldo(){
-    let saldoActual = 100000
+    let saldoActual = 100000;
     return saldoActual;
 }
 const nombreUsuario = prompt("Ingrese su nombre");
 const saldo = consultarSaldo();
 const mensajeSaldo = `Hola ${nombreUsuario}, tu saldo es de $ ${saldo}`;
-alert(mensajeSaldo)
+alert(mensajeSaldo);
