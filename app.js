@@ -1,12 +1,10 @@
-let numeroSecreto = 8;
+let numeroSecreto = Math.floor(Math.random()*10+1);
 let numeroAdivinar = 0;
 let intentos = 1;
-let palabraVeces = 'vez';
 //loop para dinamimizar el juego
 while (numeroAdivinar != numeroSecreto) {
-  numeroAdivinar = prompt("Ingresa un numero del 1 - 10");
-  console.log(numeroAdivinar);
-
+  numeroAdivinar = parseInt(prompt("Ingresa un numero del 1 - 10"));
+  
   if (numeroAdivinar == numeroSecreto) {
     alert(`Has acertado, numero secreto: ${numeroSecreto}. Has intentado ${intentos} ${intentos == 1 ? 'vez' : 'veces'}`);
   } else {
@@ -17,11 +15,9 @@ while (numeroAdivinar != numeroSecreto) {
     }
     //se incrementa el contador de veces para el acierto
     intentos++;
-    //palabraVeces = 'veces';
-
     //limitar intentos
     if(intentos > 3){
-      alert("¡Has llegado al numero max de intentos!");
+      alert("¡Has llegado al numero maximo de intentos!");
       break;
     }
   }
