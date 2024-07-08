@@ -21,5 +21,4 @@ while (numeroAdivinar != numeroSecreto) {
     alert("¡Has llegado al numero maximo de intentos!");
     break;
   }
-  
 }
